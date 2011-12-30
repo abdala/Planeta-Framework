@@ -1,0 +1,10 @@
+.content{margin-top: 50px;}
+
+.post-item{border-bottom: 1px solid #aaa;}
+.post-view, 
+.post-list .item{border-bottom: 1px solid #ccc; padding: 20px 10px;}
+
+.comment-list{padding: 20px 0;}
+.comment-list .item{background: #eee; padding: 20px 20px 10px; margin: 10px 0;}
+
+.reply{border: 1px solid #ccc; padding: 10px 30px;}

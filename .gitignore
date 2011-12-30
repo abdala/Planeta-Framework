@@ -1,0 +1,53 @@
+# Compiled source #
+###################
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# Packages #
+############
+# it's better to unpack these files and commit the raw source
+# git has its own built in compression methods
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# Logs and databases #
+######################
+*.log
+*.sqlite
+
+# Default files
+####################
+application.ini
+.htaccess
+
+# OS generated files #
+######################
+.DS_Store?
+.DS_Store
+ehthumbs.db
+Icon?
+Thumbs.db
+
+# Netbeans and Eclipse files #
+###################
+nbproject/
+data/cache/*
+data/upload/*
+data/log/*
+themes/*
+plugins/*
+public/upload/*
+tests/log/*
+.project
+.buildpath
+.settings
