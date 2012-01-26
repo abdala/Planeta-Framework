@@ -1,7 +1,5 @@
 <?php
-namespace Planeta\Banco;
-
-abstract class Tabela
+abstract class Planeta_Banco_Tabela
 {
 	protected $nome;
 	protected $chave;
@@ -13,11 +11,11 @@ abstract class Tabela
 	
     /**
      *
-     * @return \Planeta\Banco
+     * @return Planeta_Banco
      */
 	public function pegarBanco()
 	{
-		return \Planeta\Banco::pegarInstancia();
+		return Planeta_Banco::pegarInstancia();
 	}
 	
 	public function buscarTodos()
@@ -56,7 +54,7 @@ abstract class Tabela
         
 		unset($dados[$this->chave]);
 		
-		$campos = array_keys($dados);
+        $campos = array_keys($dados);
         
 		foreach ($campos as $campo) {
 			$set .= sprintf("%s = :%s, ", $campo, $campo);
