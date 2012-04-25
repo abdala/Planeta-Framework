@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="Planeta" tests="54" assertions="96" failures="0" errors="0" time="0.373424">
+    <testsuite name="Planeta\Autenticacao\Armazenamento\NaoPersistenteTest" file="/Users/abdalacerqueira/Sites/php/planeta/teste/Planeta/Autenticacao/Armazenamento/NaoPersistenteTest.php" namespace="Planeta\Autenticacao\Armazenamento" fullPackage="Planeta.Autenticacao.Armazenamento" tests="5" assertions="5" failures="0" errors="0" time="0.014336">
+      <testcase name="testEstaVazio" class="Planeta\Autenticacao\Armazenamento\NaoPersistenteTest" file="/Users/abdalacerqueira/Sites/php/planeta/teste/Planeta/Autenticacao/Armazenamento/NaoPersistenteTest.php" line="27" assertions="1" time="0.002587"/>
+      <testcase name="testLerSemDados" class="Planeta\Autenticacao\Armazenamento\NaoPersistenteTest" file="/Users/abdalacerqueira/Sites/php/planeta/teste/Planeta/Autenticacao/Armazenamento/NaoPersistenteTest.php" line="35" assertions="1" time="0.001281"/>
+      <testcase name="testLerComDados" class="Planeta\Autenticacao\Armazenamento\NaoPersistenteTest" file="/Users/abdalacerqueira/Sites/php/planeta/teste/Planeta/Autenticacao/Armazenamento/NaoPersistenteTest.php" line="42" assertions="1" time="0.000743"/>
+      <testcase name="testEscrever" class="Planeta\Autenticacao\Armazenamento\NaoPersistenteTest" file="/Users/abdalacerqueira/Sites/php/planeta/teste/Planeta/Autenticacao/Armazenamento/NaoPersistenteTest.php" line="51" assertions="1" time="0.008847"/>
+      <testcase name="testLimpar" class="Planeta\Autenticacao\Armazenamento\NaoPersistenteTest" file="/Users/abdalacerqueira/Sites/php/planeta/teste/Planeta/Autenticacao/Armazenamento/NaoPersistenteTest.php" line="62" assertions="1" time="0.000878"/>
+    </testsuite>
+    <testsuite name="Planeta\Autenticacao\Armazenamento\SessaoTest" file="/Users/abdalacerqueira/Sites/php/planeta/teste/Planeta/Autenticacao/Armazenamento/SessaoTest.php" namespace="Planeta\Autenticacao\Armazenamento" fullPackage="Planeta.Autenticacao.Armazenamento" tests="5" assertions="5" failures="0" errors="0" time="0.006124">
+      <testcase name="testEstaVazio" class="Planeta\Autenticacao\Armazenamento\SessaoTest" file="/Users/abdalacerqueira/Sites/php/planeta/teste/Planeta/Autenticacao/Armazenamento/SessaoTest.php" line="28" assertions="1" time="0.001448"/>
+      <testcase name="testLerSemDados" class="Planeta\Autenticacao\Armazenamento\SessaoTest" file="/Users/abdalacerqueira/Sites/php/planeta/teste/Planeta/Autenticacao/Armazenamento/SessaoTest.php" line="36" assertions="1" time="0.001092"/>
+      <testcase name="testLerComDados" class="Planeta\Autenticacao\Armazenamento\SessaoTest" file="/Users/abdalacerqueira/Sites/php/planeta/teste/Planeta/Autenticacao/Armazenamento/SessaoTest.php" line="43" assertions="1" time="0.000828"/>
+      <testcase name="testEscrever" class="Planeta\Autenticacao\Armazenamento\SessaoTest" file="/Users/abdalacerqueira/Sites/php/planeta/teste/Planeta/Autenticacao/Armazenamento/SessaoTest.php" line="52" assertions="1" time="0.001923"/>
+      <testcase name="testLimpar" class="Planeta\Autenticacao\Armazenamento\SessaoTest" file="/Users/abdalacerqueira/Sites/php/planeta/teste/Planeta/Autenticacao/Armazenamento/SessaoTest.php" line="63" assertions="1" time="0.000833"/>
+    </testsuite>
+    <testsuite name="Planeta\Autenticacao\AutenticacaoTest" file="/Users/abdalacerqueira/Sites/php/planeta/teste/Planeta/Autenticacao/AutenticacaoTest.php" namespace="Planeta\Autenticacao" fullPackage="Planeta.Autenticacao" tests="7" assertions="12" failures="0" errors="0" time="0.111297">
+      <testcase name="testPegarArmazemanento" class="Planeta\Autenticacao\AutenticacaoTest" file="/Users/abdalacerqueira/Sites/php/planeta/teste/Planeta/Autenticacao/AutenticacaoTest.php" line="59" assertions="1" time="0.026135"/>
+      <testcase name="testDefinirArmazenamento" class="Planeta\Autenticacao\AutenticacaoTest" file="/Users/abdalacerqueira/Sites/php/planeta/teste/Planeta/Autenticacao/AutenticacaoTest.php" line="68" assertions="1" time="0.010117"/>
+      <testcase name="testAutenticar" class="Planeta\Autenticacao\AutenticacaoTest" file="/Users/abdalacerqueira/Sites/php/planeta/teste/Planeta/Autenticacao/AutenticacaoTest.php" line="80" assertions="4" time="0.028291"/>
+      <testcase name="testAutenticarComUsuarioInvalido" class="Planeta\Autenticacao\AutenticacaoTest" file="/Users/abdalacerqueira/Sites/php/planeta/teste/Planeta/Autenticacao/AutenticacaoTest.php" line="110" assertions="3" time="0.015941"/>
+      <testcase name="testPegarDados" class="Planeta\Autenticacao\AutenticacaoTest" file="/Users/abdalacerqueira/Sites/php/planeta/teste/Planeta/Autenticacao/AutenticacaoTest.php" line="135" assertions="1" time="0.010770"/>
+      <testcase name="testEstaAutenticado" class="Planeta\Autenticacao\AutenticacaoTest" file="/Users/abdalacerqueira/Sites/php/planeta/teste/Planeta/Autenticacao/AutenticacaoTest.php" line="148" assertions="1" time="0.010060"/>
+      <testcase name="testLimpar" class="Planeta\Autenticacao\AutenticacaoTest" file="/Users/abdalacerqueira/Sites/php/planeta/teste/Planeta/Autenticacao/AutenticacaoTest.php" line="161" assertions="1" time="0.009983"/>
+    </testsuite>
+    <testsuite name="Planeta\Banco\BancoTest" file="/Users/abdalacerqueira/Sites/php/planeta/teste/Planeta/Banco/BancoTest.php" namespace="Planeta\Banco" fullPackage="Planeta.Banco" tests="3" assertions="5" failures="0" errors="0" time="0.006824">
+      <testcase name="testeConstrucaoComParametros" class="Planeta\Banco\BancoTest" file="/Users/abdalacerqueira/Sites/php/planeta/teste/Planeta/Banco/BancoTest.php" line="23" assertions="2" time="0.003008"/>
+      <testcase name="testeConstrucaoComParametrosInvalidos" class="Planeta\Banco\BancoTest" file="/Users/abdalacerqueira/Sites/php/planeta/teste/Planeta/Banco/BancoTest.php" line="38" assertions="1" time="0.002029"/>
+      <testcase name="testDefinirConexao" class="Planeta\Banco\BancoTest" file="/Users/abdalacerqueira/Sites/php/planeta/teste/Planeta/Banco/BancoTest.php" line="49" assertions="2" time="0.001787"/>
+    </testsuite>
+    <testsuite name="Planeta\Banco\TabelaTest" file="/Users/abdalacerqueira/Sites/php/planeta/teste/Planeta/Banco/TabelaTest.php" namespace="Planeta\Banco" fullPackage="Planeta.Banco" tests="11" assertions="40" failures="0" errors="0" time="0.155181">
+      <testcase name="testPegarNome" class="Planeta\Banco\TabelaTest" file="/Users/abdalacerqueira/Sites/php/planeta/teste/Planeta/Banco/TabelaTest.php" line="58" assertions="2" time="0.012438"/>
+      <testcase name="testDefinirNome" class="Planeta\Banco\TabelaTest" file="/Users/abdalacerqueira/Sites/php/planeta/teste/Planeta/Banco/TabelaTest.php" line="65" assertions="2" time="0.012601"/>
+      <testcase name="testPegarChave" class="Planeta\Banco\TabelaTest" file="/Users/abdalacerqueira/Sites/php/planeta/teste/Planeta/Banco/TabelaTest.php" line="73" assertions="2" time="0.009900"/>
+      <testcase name="testDefinirChave" class="Planeta\Banco\TabelaTest" file="/Users/abdalacerqueira/Sites/php/planeta/teste/Planeta/Banco/TabelaTest.php" line="80" assertions="2" time="0.009562"/>
+      <testcase name="testPegarBanco" class="Planeta\Banco\TabelaTest" file="/Users/abdalacerqueira/Sites/php/planeta/teste/Planeta/Banco/TabelaTest.php" line="88" assertions="2" time="0.010550"/>
+      <testcase name="testDefinirBanco" class="Planeta\Banco\TabelaTest" file="/Users/abdalacerqueira/Sites/php/planeta/teste/Planeta/Banco/TabelaTest.php" line="95" assertions="2" time="0.013299"/>
+      <testcase name="testInserir" class="Planeta\Banco\TabelaTest" file="/Users/abdalacerqueira/Sites/php/planeta/teste/Planeta/Banco/TabelaTest.php" line="106" assertions="4" time="0.023916"/>
+      <testcase name="testAtualizar" class="Planeta\Banco\TabelaTest" file="/Users/abdalacerqueira/Sites/php/planeta/teste/Planeta/Banco/TabelaTest.php" line="125" assertions="4" time="0.016713"/>
+      <testcase name="testExcluir" class="Planeta\Banco\TabelaTest" file="/Users/abdalacerqueira/Sites/php/planeta/teste/Planeta/Banco/TabelaTest.php" line="144" assertions="4" time="0.018320"/>
+      <testcase name="testBuscarTodos" class="Planeta\Banco\TabelaTest" file="/Users/abdalacerqueira/Sites/php/planeta/teste/Planeta/Banco/TabelaTest.php" line="160" assertions="3" time="0.011711"/>
+      <testcase name="testBuscar" class="Planeta\Banco\TabelaTest" file="/Users/abdalacerqueira/Sites/php/planeta/teste/Planeta/Banco/TabelaTest.php" line="171" assertions="13" time="0.016171"/>
+    </testsuite>
+    <testsuite name="Planeta\Mvc\ControladorTest" file="/Users/abdalacerqueira/Sites/php/planeta/teste/Planeta/Mvc/ControladorTest.php" namespace="Planeta\Mvc" fullPackage="Planeta.Mvc" tests="8" assertions="11" failures="0" errors="0" time="0.033147">
+      <testcase name="testComVisaoAutomatica" class="Planeta\Mvc\ControladorTest" file="/Users/abdalacerqueira/Sites/php/planeta/teste/Planeta/Mvc/ControladorTest.php" line="26" assertions="2" time="0.001938"/>
+      <testcase name="testDefinirVisaoAutomatica" class="Planeta\Mvc\ControladorTest" file="/Users/abdalacerqueira/Sites/php/planeta/teste/Planeta/Mvc/ControladorTest.php" line="38" assertions="2" time="0.001157"/>
+      <testcase name="testPegarVisaoAutomatica" class="Planeta\Mvc\ControladorTest" file="/Users/abdalacerqueira/Sites/php/planeta/teste/Planeta/Mvc/ControladorTest.php" line="50" assertions="1" time="0.000905"/>
+      <testcase name="testDefinirVisaoComTipoErrado" class="Planeta\Mvc\ControladorTest" file="/Users/abdalacerqueira/Sites/php/planeta/teste/Planeta/Mvc/ControladorTest.php" line="58" assertions="1" time="0.001354"/>
+      <testcase name="testDefinirVisao" class="Planeta\Mvc\ControladorTest" file="/Users/abdalacerqueira/Sites/php/planeta/teste/Planeta/Mvc/ControladorTest.php" line="67" assertions="1" time="0.004911"/>
+      <testcase name="testPegarVisao" class="Planeta\Mvc\ControladorTest" file="/Users/abdalacerqueira/Sites/php/planeta/teste/Planeta/Mvc/ControladorTest.php" line="81" assertions="1" time="0.001565"/>
+      <testcase name="testRenderizarComLayout" class="Planeta\Mvc\ControladorTest" file="/Users/abdalacerqueira/Sites/php/planeta/teste/Planeta/Mvc/ControladorTest.php" line="91" assertions="1" time="0.016977"/>
+      <testcase name="testRenderizarSeConteudoEstaSendoDefinido" class="Planeta\Mvc\ControladorTest" file="/Users/abdalacerqueira/Sites/php/planeta/teste/Planeta/Mvc/ControladorTest.php" line="112" assertions="2" time="0.004340"/>
+    </testsuite>
+    <testsuite name="Planeta\Mvc\MvcTest" file="/Users/abdalacerqueira/Sites/php/planeta/teste/Planeta/Mvc/MvcTest.php" namespace="Planeta\Mvc" fullPackage="Planeta.Mvc" tests="9" assertions="9" failures="0" errors="0" time="0.035506">
+      <testcase name="testPegarModulo" class="Planeta\Mvc\MvcTest" file="/Users/abdalacerqueira/Sites/php/planeta/teste/Planeta/Mvc/MvcTest.php" line="26" assertions="1" time="0.002396"/>
+      <testcase name="testPegarControlador" class="Planeta\Mvc\MvcTest" file="/Users/abdalacerqueira/Sites/php/planeta/teste/Planeta/Mvc/MvcTest.php" line="33" assertions="1" time="0.001524"/>
+      <testcase name="testPegarAcao" class="Planeta\Mvc\MvcTest" file="/Users/abdalacerqueira/Sites/php/planeta/teste/Planeta/Mvc/MvcTest.php" line="41" assertions="1" time="0.002219"/>
+      <testcase name="testCriarObjetoControlador" class="Planeta\Mvc\MvcTest" file="/Users/abdalacerqueira/Sites/php/planeta/teste/Planeta/Mvc/MvcTest.php" line="48" assertions="1" time="0.002156"/>
+      <testcase name="testCriarObjetoControladorInexistente" class="Planeta\Mvc\MvcTest" file="/Users/abdalacerqueira/Sites/php/planeta/teste/Planeta/Mvc/MvcTest.php" line="57" assertions="1" time="0.002406"/>
+      <testcase name="testChamarAcao" class="Planeta\Mvc\MvcTest" file="/Users/abdalacerqueira/Sites/php/planeta/teste/Planeta/Mvc/MvcTest.php" line="65" assertions="1" time="0.009453"/>
+      <testcase name="testChamarAcaoComVisaoAutomatica" class="Planeta\Mvc\MvcTest" file="/Users/abdalacerqueira/Sites/php/planeta/teste/Planeta/Mvc/MvcTest.php" line="78" assertions="1" time="0.010653"/>
+      <testcase name="testChamarAcaoInexistente" class="Planeta\Mvc\MvcTest" file="/Users/abdalacerqueira/Sites/php/planeta/teste/Planeta/Mvc/MvcTest.php" line="95" assertions="1" time="0.002602"/>
+      <testcase name="testRodar" class="Planeta\Mvc\MvcTest" file="/Users/abdalacerqueira/Sites/php/planeta/teste/Planeta/Mvc/MvcTest.php" line="104" assertions="1" time="0.002097"/>
+    </testsuite>
+    <testsuite name="Planeta\Mvc\VisaoTest" file="/Users/abdalacerqueira/Sites/php/planeta/teste/Planeta/Mvc/VisaoTest.php" namespace="Planeta\Mvc" fullPackage="Planeta.Mvc" tests="6" assertions="9" failures="0" errors="0" time="0.011009">
+      <testcase name="testAdicionarUmaPasta" class="Planeta\Mvc\VisaoTest" file="/Users/abdalacerqueira/Sites/php/planeta/teste/Planeta/Mvc/VisaoTest.php" line="26" assertions="2" time="0.002430"/>
+      <testcase name="testAdicionarDuasPastas" class="Planeta\Mvc\VisaoTest" file="/Users/abdalacerqueira/Sites/php/planeta/teste/Planeta/Mvc/VisaoTest.php" line="38" assertions="3" time="0.002448"/>
+      <testcase name="testPegarPastasComNenhumaPastaAdicionada" class="Planeta\Mvc\VisaoTest" file="/Users/abdalacerqueira/Sites/php/planeta/teste/Planeta/Mvc/VisaoTest.php" line="54" assertions="1" time="0.001735"/>
+      <testcase name="testRemoverPasta" class="Planeta\Mvc\VisaoTest" file="/Users/abdalacerqueira/Sites/php/planeta/teste/Planeta/Mvc/VisaoTest.php" line="62" assertions="1" time="0.001394"/>
+      <testcase name="testRenderizarComDados" class="Planeta\Mvc\VisaoTest" file="/Users/abdalacerqueira/Sites/php/planeta/teste/Planeta/Mvc/VisaoTest.php" line="74" assertions="1" time="0.001206"/>
+      <testcase name="testRenderizarArquivoInexistente" class="Planeta\Mvc\VisaoTest" file="/Users/abdalacerqueira/Sites/php/planeta/teste/Planeta/Mvc/VisaoTest.php" line="89" assertions="1" time="0.001796"/>
+    </testsuite>
+  </testsuite>
+</testsuites>

@@ -1,0 +1,4 @@
+<?xml version="1.0" ?>
+<dataset>
+    <usuario id="1" nome="Jose" email="jose@gmail.com" senha="123" perfil="admin" />
+</dataset>

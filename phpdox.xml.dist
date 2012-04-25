@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<phpdox xmlns="http://phpdox.de/config">
+    <project name="Planeta" source="fonte" workdir="gerado/phpdox">
+        <collector publiconly="false">
+            <include mask="*.php" />
+            <exclude mask="*Autoload.php" />
+        </collector>
+
+        <generator output="gerado">
+            <build engine="html" enabled="true" output="api"/>
+        </generator>
+    </project>
+</phpdox>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<interfaces xmlns="http://xml.phpdox.de/src#">
+  <namespace name="Planeta\Autenticacao\Armazenamento">
+    <interface full="Planeta\Autenticacao\Armazenamento\InterfaceArmazenamento" name="InterfaceArmazenamento" final="false" start="4" end="13" xml="fonte/Planeta/Autenticacao/Armazenamento/InterfaceArmazenamento.php.xml" src="/Users/abdalacerqueira/Sites/php/planeta/fonte/Planeta/Autenticacao/Armazenamento/InterfaceArmazenamento.php"/>
+  </namespace>
+</interfaces>

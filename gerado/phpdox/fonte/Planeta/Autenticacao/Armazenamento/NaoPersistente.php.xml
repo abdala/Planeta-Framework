@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<file xmlns="http://xml.phpdox.de/src#">
+  <head path="fonte/Planeta/Autenticacao/Armazenamento" file="NaoPersistente.php" realpath="/Users/abdalacerqueira/Sites/php/planeta/fonte/Planeta/Autenticacao/Armazenamento/NaoPersistente.php" size="504" time="2012-04-25T15:08:46-03:00" unixtime="1335377326" sha1="1f59447374e9d330d26834ecb8869bd8f05cb8a1"/>
+  <namespace name="Planeta\Autenticacao\Armazenamento">
+    <class full="Planeta\Autenticacao\Armazenamento\NaoPersistente" name="NaoPersistente" final="false" abstract="false" start="6" end="29">
+      <implements interface="InterfaceArmazenamento" namespace="Planeta\Autenticacao\Armazenamento" full="Planeta\Autenticacao\Armazenamento\InterfaceArmazenamento"/>
+      <member name="dados" static="false" visibility="protected">
+        <default>null</default>
+      </member>
+      <method name="estaVazio" start="10" end="13" abstract="false" final="false" static="false" visibility="public"/>
+      <method name="ler" start="15" end="18" abstract="false" final="false" static="false" visibility="public"/>
+      <method name="escrever" start="20" end="23" abstract="false" final="false" static="false" visibility="public">
+        <parameter name="conteudo" type="{unknown}" optional="false" byreference="false"/>
+      </method>
+      <method name="limpar" start="25" end="28" abstract="false" final="false" static="false" visibility="public"/>
+    </class>
+  </namespace>
+</file>

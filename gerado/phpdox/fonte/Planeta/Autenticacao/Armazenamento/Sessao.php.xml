@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<file xmlns="http://xml.phpdox.de/src#">
+  <head path="fonte/Planeta/Autenticacao/Armazenamento" file="Sessao.php" realpath="/Users/abdalacerqueira/Sites/php/planeta/fonte/Planeta/Autenticacao/Armazenamento/Sessao.php" size="816" time="2012-04-25T15:10:25-03:00" unixtime="1335377425" sha1="363db404fa72343af835f753bbf9b90074a2a188"/>
+  <namespace name="Planeta\Autenticacao\Armazenamento">
+    <class full="Planeta\Autenticacao\Armazenamento\Sessao" name="Sessao" final="false" abstract="false" start="6" end="38">
+      <implements interface="InterfaceArmazenamento" namespace="Planeta\Autenticacao\Armazenamento" full="Planeta\Autenticacao\Armazenamento\InterfaceArmazenamento"/>
+      <constant name="CHAVE_DA_SESSAO" value="autenticacao"/>
+      <constructor name="__construct" start="10" end="13" abstract="false" final="false" static="false" visibility="public"/>
+      <method name="estaVazio" start="15" end="18" abstract="false" final="false" static="false" visibility="public"/>
+      <method name="ler" start="20" end="27" abstract="false" final="false" static="false" visibility="public"/>
+      <method name="escrever" start="29" end="32" abstract="false" final="false" static="false" visibility="public">
+        <parameter name="conteudo" type="{unknown}" optional="false" byreference="false"/>
+      </method>
+      <method name="limpar" start="34" end="37" abstract="false" final="false" static="false" visibility="public"/>
+    </class>
+  </namespace>
+</file>

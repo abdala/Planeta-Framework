@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<file xmlns="http://xml.phpdox.de/src#">
+  <head path="fonte/Planeta/Mvc/Excecao" file="VisaoNaoExiste.php" realpath="/Users/abdalacerqueira/Sites/php/planeta/fonte/Planeta/Mvc/Excecao/VisaoNaoExiste.php" size="107" time="2012-04-23T09:44:11-03:00" unixtime="1335185051" sha1="aeb06d7ffb03f2bf1ddafcb92ac1d36e815f34ba"/>
+  <namespace name="Planeta\Mvc\Excecao">
+    <class full="Planeta\Mvc\Excecao\VisaoNaoExiste" name="VisaoNaoExiste" final="false" abstract="false" start="6" end="7">
+      <extends class="DomainException" full="DomainException"/>
+    </class>
+  </namespace>
+</file>

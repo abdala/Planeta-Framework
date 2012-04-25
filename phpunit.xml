@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<phpunit bootstrap="teste/bootstrap.php"
+         backupGlobals="false"
+         backupStaticAttributes="false"
+         strict="true"
+         verbose="true"
+         colors="true"
+         timeoutForSmallTests="5">
+  <testsuites>
+    <testsuite name="Planeta">
+      <directory suffix="Test.php">teste</directory>
+    </testsuite>
+  </testsuites>
+
+  <logging>
+    <log type="coverage-html" target="gerado/coverage" title="Planeta Framework"
+         charset="UTF-8" yui="true" highlight="true"
+         lowUpperBound="35" highLowerBound="70"/>
+    <log type="coverage-clover" target="gerado/logs/clover.xml"/>
+    <log type="junit" target="gerado/logs/junit.xml" logIncompleteSkipped="false"/>
+  </logging>
+
+  <filter>
+    <whitelist addUncoveredFilesFromWhitelist="true">
+      <directory suffix=".php">fonte</directory>
+      <exclude>
+        <file>fonte/autoload.php</file>
+      </exclude>
+    </whitelist>
+  </filter>
+</phpunit>
