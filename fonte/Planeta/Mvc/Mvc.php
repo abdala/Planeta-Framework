@@ -80,7 +80,7 @@ class Mvc
 
     public function rodar($pastaAplicacao)
     {
-        $pastaPadraoVisao = $pastaAplicacao . '/' . $this->pegarModulo() . '/Visao/telas';
+        $pastaPadraoVisao = $pastaAplicacao . '/' . ucfirst($this->pegarModulo()) . '/Visao/telas';
 
         $visao = new Visao();
         $visao->adicionarPasta($pastaPadraoVisao);
