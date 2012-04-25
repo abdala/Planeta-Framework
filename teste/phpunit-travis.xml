@@ -14,7 +14,7 @@
   </testsuites>
   
   <php>
-      <const name="PASTA_ACESSORIOS" value="acessorios" />
+      <const name="PASTA_ACESSORIOS" value="./acessorios" />
       <const name="PDO_DRIVER" value="mysql" />
       <const name="PDO_HOST" value="localhost" />
       <const name="PDO_DBNAME" value="blog" />
