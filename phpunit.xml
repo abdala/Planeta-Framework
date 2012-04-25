@@ -31,6 +31,7 @@
   </filter>
   
   <php>
+      <const name="PASTA_ACESSORIOS" value="teste/acessorios" />
       <const name="PDO_DRIVER" value="mysql" />
       <const name="PDO_HOST" value="127.0.0.1" />
       <const name="PDO_DBNAME" value="blog" />
