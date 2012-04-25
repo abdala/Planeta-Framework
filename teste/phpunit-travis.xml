@@ -21,5 +21,4 @@
       <const name="PDO_USERNAME" value="root" />
       <const name="PDO_PASSWORD" value="" />
   </php>
-  
 </phpunit>
