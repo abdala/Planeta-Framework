@@ -3,11 +3,10 @@ php:
   - 5.3
   - 5.4
 
-before-script: 
-  - sh -c "if [ '$TRAVIS_PHP_VERSION' = '5.2' ]; then pear install --force phpunit/DbUnit; fi"
-  - sh -c "if [ '$TRAVIS_PHP_VERSION' = '5.3' ]; then pyrus install --force phpunit/DbUnit; fi"
-  - sh -c "if [ '$TRAVIS_PHP_VERSION' = '5.4' ]; then pyrus install --force phpunit/DbUnit; fi"
+before-script:
+  - echo "Instalando dependencias"
+  - pyrus install --force phpunit/DbUnit
   - phpenv rehash
   
 script:
-  - ant
+  - phpunit
