@@ -3,7 +3,7 @@ php:
   - 5.3
   - 5.4
 
-before-script:
+before_script:
   - echo "Instalando dependencias"
   - pyrus install --force phpunit/DbUnit
   - phpenv rehash
