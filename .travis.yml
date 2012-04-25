@@ -5,3 +5,6 @@ php:
 
 before-script: 
   - pyrus install --force phpunit/DbUnit
+  
+script:
+  - phpunit
