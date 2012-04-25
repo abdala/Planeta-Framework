@@ -35,6 +35,6 @@ class Visao
                 return ob_get_clean();
             }
         }
-        throw new VisaoNaoExiste("Visao nao encontrada.");
+        throw new VisaoNaoExiste("Visao nao encontrada. " . var_export($this->pastas, TRUE));
     }
 }
