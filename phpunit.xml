@@ -29,4 +29,12 @@
       </exclude>
     </whitelist>
   </filter>
+  
+  <php>
+      <const name="PDO_DRIVER" value="mysql" />
+      <const name="PDO_HOST" value="127.0.0.1" />
+      <const name="PDO_DBNAME" value="blog" />
+      <const name="PDO_USERNAME" value="root" />
+      <const name="PDO_PASSWORD" value="123456" />
+  </php>
 </phpunit>

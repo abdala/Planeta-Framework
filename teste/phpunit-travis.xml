@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<phpunit bootstrap="./bootstrap.php"
+         backupGlobals="false"
+         backupStaticAttributes="false"
+         strict="true"
+         verbose="true"
+         colors="true"
+         timeoutForSmallTests="5">
+  <testsuites>
+    <testsuite name="Planeta">
+      <directory suffix="Test.php">./</directory>
+    </testsuite>
+  </testsuites>
+  
+  <php>
+      <const name="PDO_DRIVER" value="mysql" />
+      <const name="PDO_HOST" value="localhost" />
+      <const name="PDO_DBNAME" value="blog" />
+      <const name="PDO_USERNAME" value="root" />
+      <const name="PDO_PASSWORD" value="" />
+  </php>
+  
+</phpunit>

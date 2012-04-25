@@ -21,11 +21,11 @@ class BancoTest extends \PHPUnit_Framework_TestCase {
     }
 
     public function testeConstrucaoComParametros() {
-        $options = array("driver" => "mysql",
-                         "dbname" => "blog",
-                         "host" => "127.0.0.1",
-                         "username" => "root",
-                         "password" => "123456");
+        $options = array("driver" => PDO_DRIVER,
+                         "dbname" => PDO_DBNAME,
+                         "host" => PDO_HOST,
+                         "username" => PDO_USERNAME,
+                         "password" => PDO_PASSWORD);
         $banco = new Banco($options);
         
         $this->assertInstanceOf("PDO", $banco->pegarConexao());

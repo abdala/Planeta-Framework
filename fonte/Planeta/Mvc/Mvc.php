@@ -67,7 +67,7 @@ class Mvc
         $acao = "acao" . ucfirst($this->pegarAcao());
         //verifica se o metodo existe
         if (method_exists($controlador, $acao)) {
-            call_user_method($acao, $controlador);
+            call_user_func(array($controlador, $acao));
 
             //verifica se pode renderizar a view automatimente
             if ($controlador->comVisaoAutomatica()) {
