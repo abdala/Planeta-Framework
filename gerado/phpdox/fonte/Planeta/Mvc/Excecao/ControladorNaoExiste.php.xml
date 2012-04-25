@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<file xmlns="http://xml.phpdox.de/src#">
-  <head path="fonte/Planeta/Mvc/Excecao" file="ControladorNaoExiste.php" realpath="/Users/abdalacerqueira/Sites/php/planeta/fonte/Planeta/Mvc/Excecao/ControladorNaoExiste.php" size="113" time="2012-04-23T09:54:59-03:00" unixtime="1335185699" sha1="0c6e5ac077e222a19689846b870c7c77d42f88e9"/>
-  <namespace name="Planeta\Mvc\Excecao">
-    <class full="Planeta\Mvc\Excecao\ControladorNaoExiste" name="ControladorNaoExiste" final="false" abstract="false" start="6" end="7">
-      <extends class="DomainException" full="DomainException"/>
-    </class>
-  </namespace>
-</file>

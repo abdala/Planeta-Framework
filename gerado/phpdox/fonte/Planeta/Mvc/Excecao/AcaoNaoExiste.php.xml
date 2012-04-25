@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<file xmlns="http://xml.phpdox.de/src#">
-  <head path="fonte/Planeta/Mvc/Excecao" file="AcaoNaoExiste.php" realpath="/Users/abdalacerqueira/Sites/php/planeta/fonte/Planeta/Mvc/Excecao/AcaoNaoExiste.php" size="106" time="2012-04-23T10:13:03-03:00" unixtime="1335186783" sha1="8b1463172127a57ea0044682e010705467829ce6"/>
-  <namespace name="Planeta\Mvc\Excecao">
-    <class full="Planeta\Mvc\Excecao\AcaoNaoExiste" name="AcaoNaoExiste" final="false" abstract="false" start="6" end="7">
-      <extends class="DomainException" full="DomainException"/>
-    </class>
-  </namespace>
-</file>

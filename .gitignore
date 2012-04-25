@@ -51,3 +51,4 @@ tests/log/*
 .project
 .buildpath
 .settings
+gerado/
