@@ -52,3 +52,4 @@ tests/log/*
 .buildpath
 .settings
 gerado/
+cache.properties
