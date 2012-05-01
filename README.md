@@ -1,4 +1,6 @@
-Planeta Framework
+# Planeta Framework
+
+Status: [![Build Status](https://secure.travis-ci.org/abdala/Planeta-Framework.png?branch=master)](http://travis-ci.org/abdala/Planeta-Framework)
 
 Esse repositório contém a implementação de uma framework PHP em português. Todas as variáveis, classes e métodos vão estar em português.
 
